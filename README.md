@@ -14,7 +14,7 @@ You must find a vertical line for which ALL points have a symmetric. Points are 
 Display in the console the coordinates of this line, or "None" if there is no line that meets this condition.
 
 Here is an example:
-![example](url)
+![example](https://github.com/alexgorgos/JS-assessment-1/blob/master/example.jpg)
 
 
 Note: You must provide the input for the bonus function. It's your choice how you structure the data.

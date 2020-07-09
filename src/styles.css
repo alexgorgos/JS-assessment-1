@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: inline-block;
+  content: " ";
+}
+
+.circle:hover {
+  cursor: pointer;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  display: inline-block;
+  content: " ";
+}
+
+.square:hover {
+  cursor: pointer;
+}
+
+#btn {
+  display: block;
+  margin: 5em auto;
+}

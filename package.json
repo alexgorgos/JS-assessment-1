@@ -1,19 +1,24 @@
 {
-  "name": "vanilla",
+  "name": "js-aasessment-1",
   "version": "1.0.0",
-  "description": "JavaScript example starter project",
-  "main": "index.html",
+  "description": "JS assessment",
+  "main": "index.js",
   "scripts": {
-    "start": "parcel index.html --open",
-    "build": "parcel build index.html"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
   },
-  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexgorgos/JS-assessment-1.git"
+  },
+  "author": "Alexandru Gorgos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexgorgos/JS-assessment-1/issues"
+  },
+  "homepage": "https://github.com/alexgorgos/JS-assessment-1#readme",
   "devDependencies": {
-    "@babel/core": "7.2.0",
-    "parcel-bundler": "^1.6.1"
-  },
-  "keywords": [
-    "javascript",
-    "starter"
-  ]
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
 }
